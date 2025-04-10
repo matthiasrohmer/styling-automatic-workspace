@@ -19,10 +19,10 @@ npm run dev
 
 Afterwards open [http://localhost:5173/](http://localhost:5173/) in your Google
 Chrome (Canary), open DevTools, and reveal the Workspace tab in the Sources
-panel. If you set up everything correctly, you'll see an infobar at the bottom
-offering you the option to connect the folder to the workspace. Once you've
-clicked `Connect...`, Chrome will ask you to allow full access to the folder via
-a browser permission prompt. You need to click `Allow` here.
+panel. If you set up everything correctly, you'll see an folder row labeled
+`automatic-workspace-folders-vanilla` with a _Connect_ button next to it. Once
+you've clicked _Connect_, Chrome will ask you to grant permission to the folder
+via a browser permission prompt. You need to click _Allow_ here.
 
 If everything went well, you'll now be able to use the project folder as part of
 your Workspace and edit files from your project directly within DevTools, and
