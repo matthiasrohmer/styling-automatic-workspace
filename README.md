@@ -1,4 +1,4 @@
-# Vite Vanilla example for Automatic Workspace Folders
+# Example for AI assistance for styling & automatic workspace folders
 
 This is a trivial Vanilla TypeScript project to illustrate the use of the
 [vite-plugin-devtools-json](npmjs.com/package/vite-plugin-devtools-json)
@@ -11,8 +11,8 @@ to try it out.
 Checkout and setup the example via:
 
 ```
-git clone http://github.com/bmeurer/automatic-workspace-folders-vanilla
-cd automatic-workspace-folders-vanilla
+git clone git@github.com:matthiasrohmer/styling-automatic-workspace.git
+cd styling-automatic-workspace
 npm install
 npm run dev
 ```
@@ -20,7 +20,7 @@ npm run dev
 Afterwards open [http://localhost:5173/](http://localhost:5173/) in your Google
 Chrome (Canary), open DevTools, and reveal the Workspace tab in the Sources
 panel. If you set up everything correctly, you'll see an folder row labeled
-`automatic-workspace-folders-vanilla` with a _Connect_ button next to it. Once
+`styling-automatic-workspace` with a _Connect_ button next to it. Once
 you've clicked _Connect_, Chrome will ask you to grant permission to the folder
 via a browser permission prompt. You need to click _Allow_ here.
 
